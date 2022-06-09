@@ -53,7 +53,7 @@ const Contact = () => {
 						<div className='left'>
 							<div className='box box_shodow'>
 								<div className='img'>
-									<img src={contact1} alt='' style={{ width: '460px', height: '288px', borderRadius: '4px' }} />
+									<img className="imgstyle" src={contact1} alt='' />
 								</div>
 								<div className='details'>
 									<h1>Bobir Maxmadustov</h1>
@@ -100,10 +100,10 @@ const Contact = () => {
 								</div>
 								<div className='input'>
 									<span>YOUR MESSAGE </span>
-									<textarea cols='30' rows='10' name='message' ></textarea>
+									<textarea cols='30' rows='4' name='message' ></textarea>
 								</div>
 								<input type="submit" value={"Send"} className='btn_shadow'/>
-								<input type="reset" value={"Reset"} className='btn_shadow'/>
+								{/* <input type="reset" value={"Reset"} className='btn_shadow'/> */}
 							</form>
 
 

@@ -141,7 +141,47 @@ body.active-modal {
   margin: 0;
 }
 /*------------popup--------*/
-@media (max-width: 768px) {
+
+@media screen and (max-width: 425.9px) {
+  .modal-content {
+    position: absolute;
+    top: 12%;
+    left: 8%;
+    line-height: 1.4;
+    background: #f0f3f5;
+    padding: 20px;
+    border-radius: 3px;
+    max-width: 85%;
+    min-width: 60%;
+    z-index: 9999;
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+    border-radius: 10px;
+  }
+  .modal-text h1 {
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+  }
+  .modal-text p {
+    font-size: 14px;
+  }
+  .modal,
+  .overlay {
+    overflow: scroll;
+  }
+
+  .modal .modal-img {
+    margin: 50px 0 50px 0;
+  }
+  .modal-content {
+    flex-direction: column;
+  }
+  .modal .right,
+  .modal .left {
+    padding: 0;
+  }
+}
+
+@media (min-width: 426px) and (max-width:776px) {
   .modal,
   .overlay {
     overflow: scroll;

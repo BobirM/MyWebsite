@@ -40,7 +40,13 @@
 .Contact .right button i {
   margin-left: 10px;
 }
-@media (max-width: 768px) {
+.imgstyle{
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 320px) and (max-width: 424.9px){
   .Contact .d_flex {
     flex-direction: column;
   }
@@ -49,4 +55,46 @@
     width: 100%;
     margin-top: 50px;
   }
+  .imgstyle{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+  }
+
 }
+
+@media  (min-width: 425px) and (max-width: 767.9px) {
+  .Contact .d_flex {
+    flex-direction: column;
+  }
+  .Contact .left,
+  .Contact .right {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .imgstyle{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+@media  (min-width: 768px) and (max-width: 1200px) {
+  /* .Contact .d_flex {
+    flex-direction: column;
+  }
+  .Contact .left,
+  .Contact .right {
+    width: 100%;
+    margin-top: 50px;
+  } */
+  .imgstyle{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+

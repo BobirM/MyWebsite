@@ -57,6 +57,34 @@ header ul li a:hover {
 }
 
 @media (min-width: 320px) and (max-width: 425.9px) {
+  header ul {
+    padding-top: 30px;
+  }
+
+  .nav-links-mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    width: 60%;
+    height: 100vh;
+    background-color: white;
+    z-index: 888;
+  }
+
+  header ul li {
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    text-transform: uppercase;
+    line-height: 70px;
+  }
+
+  header .link {
+    display: none;
+  }
 
   .close,
   .open {
@@ -74,6 +102,9 @@ header ul li a:hover {
   }
 
   .close.home-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: linear-gradient(145deg, #e2e8ec, #ffffff);
     color: #ff014f;
     border-radius: 50%;
@@ -81,20 +112,19 @@ header ul li a:hover {
     width: 60px;
     height: 60px;
     line-height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .header.active {
-    height: 10vh;
+    height: 14vh;
   }
+
 }
 
-@media (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768.9px) {
   header ul {
     padding-top: 30px;
   }
+
 
   .nav-links-mobile {
     position: absolute;
@@ -147,6 +177,7 @@ header ul li a:hover {
   }
 
   .header.active {
-    height: 10vh;
+    height: 14vh;
   }
 }
+

@@ -13,7 +13,7 @@ const Features = () => {
             <h1>My Interests</h1>
           </div>
 
-          <div className='content grid'>
+          <div className='content grid'id="grid1">
             {data.map((val, index) => {
               return <Card key={index} image={val.image} title={val.title} desc={val.desc} />
             })}
