@@ -11,11 +11,11 @@ const Portfolio_data = [
   },
   {
     id: 2,
-    category: "APPLICATION",
-    title: "Mobile app landing design & maintain",
-    image: "evaset.png",
-    comment:'It has a huge impact on the development of business',
-    projectLink:'https://ombor.evaset.uz'
+    category: "GAME",
+    title: "React.js Tic Tac Game using React Hooks",
+    image: "ticTac.png",
+    comment:'React.js Tic Tac Game using React Hooks ',
+    projectLink:'https://tictacreactjs.netlify.app'
   },
   {
     id: 3,
@@ -24,6 +24,15 @@ const Portfolio_data = [
     image: "mywebsit.png",
     comment:'It has a huge impact on the development of business',
     projectLink:'https://bobir.netlify.app/'
+
+  },
+  {
+    id: 3,
+    category: "DEVELOPMENT",
+    title: "Only Html Css Javascript was used ",
+    image: "stopwatch.png",
+    comment:'It has a huge impact on the development of business',
+    projectLink:'https://stopwatch-react-pro.netlify.app'
 
   },
   
