@@ -4,7 +4,7 @@ const Portfolio_data = [
   {
     id: 1,
     category: "DEVELOPMENT",
-    title: "It has a huge impact on the development of business ",
+    title: "My project is at Evaset.Application - React",
     image: "evaset.png",
     comment:'It has a huge impact on the development of business',
     projectLink:'https://ombor.evaset.uz'
@@ -12,7 +12,7 @@ const Portfolio_data = [
   {
     id: 2,
     category: "GAME",
-    title: "React.js Tic Tac Game using React Hooks",
+    title: "React Tic Tac Game using React Hooks",
     image: "ticTac.png",
     comment:'React.js Tic Tac Game using React Hooks ',
     projectLink:'https://tictacreactjs.netlify.app'
@@ -22,16 +22,16 @@ const Portfolio_data = [
     category: "DEVELOPMENT",
     title: "Only Html Css Javascript was used ",
     image: "mywebsit.png",
-    comment:'It has a huge impact on the development of business',
+    comment:'Html Css Javascript first website created using ',
     projectLink:'https://bobir.netlify.app/'
 
   },
   {
     id: 3,
     category: "DEVELOPMENT",
-    title: "Only Html Css Javascript was used ",
+    title: "Stopwatch - React Application",
     image: "stopwatch.png",
-    comment:'It has a huge impact on the development of business',
+    comment:'Stopwatch - React Application',
     projectLink:'https://stopwatch-react-pro.netlify.app'
 
   },

@@ -42,7 +42,7 @@ const Card = (props) => {
               <img src={require(`../pic/${props.image}`)} alt='' />
             </div>
             <div className='modal-text right'>
-              <span>Featured - Design</span>
+              <span>Application</span>
               <h1>{props.title}</h1>
               <p>{props.comment}</p>
               <div className='button f_flex mtop'>
