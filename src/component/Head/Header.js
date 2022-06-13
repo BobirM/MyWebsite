@@ -22,10 +22,7 @@ const Header = () => {
 
 					<div className='navlink'>
 						<ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>
-							{/*<ul className='link f_flex uppercase {Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}'>*/}
-							{/* <li>
-								<a href='#home'>home</a>
-							</li> */}
+							
 							<li>
 								<a href='#features'>hobbies</a>
 							</li>
@@ -35,12 +32,7 @@ const Header = () => {
 							<li>
 								<a href='#resume'>resume</a>
 							</li>
-							{/* <li>
-                <a href='#clients'>clients</a>
-              </li>
-              <li>
-                <a href='#blog'>blog</a>
-              </li> */}
+							
 							<li>
 								<a href='#contact'>contact</a>
 							</li>

@@ -168,9 +168,7 @@ footer p {
   .right {
     width: 100%;
   }
-  .top{
-    /* margin-top: 0; */
-  }
+  
 }
 
 @media (min-width: 426px) and (max-width:776px) {
