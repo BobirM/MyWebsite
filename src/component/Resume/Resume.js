@@ -12,7 +12,6 @@ const Resume = () => {
 			<section className='Resume' id='resume'>
 				<div className='container top'>
 					<div className='heading text-center'>
-						{/* <h4>7+ YEARS OF EXPERIENCE</h4> */}
 						<h1>My Resume</h1>
 					</div>
 
