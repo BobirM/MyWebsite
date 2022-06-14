@@ -27,12 +27,21 @@ const Portfolio_data = [
 
   },
   {
-    id: 3,
+    id: 4,
     category: "DEVELOPMENT",
     title: "Stopwatch - React Application",
     image: "stopwatch.png",
     comment:'Stopwatch - React Application',
     projectLink:'https://stopwatch-react-pro.netlify.app'
+
+  },
+  {
+    id: 5,
+    category: "DEVELOPMENT",
+    title: "CRUD - React Application",
+    image: "crud.png",
+    comment:'Furniture Store',
+    projectLink:'http://18.223.20.37'
 
   },
   
