@@ -32,7 +32,7 @@ const Resume = () => {
 									}
 								})}
 
-								
+
 							</div>
 						</div>
 						<div className='left'>
@@ -53,6 +53,22 @@ const Resume = () => {
 							</div>
 						</div>
 					</div>
+					<div className="textResmume">
+						<div className="textBox1">
+						<h1>Why me?</h1>
+							<p>- Team work experience</p>
+							<p>- Desire to learn and discover new things</p>
+							<p>- Responsibility</p>
+							<p>- Sociability</p>
+						</div>
+						<div className="textBox2">
+						<h1>What I can?</h1>
+							<p>- Maintaining and development of SPA (single page application)</p>
+							<p>- Creation of landing and corporate sites</p>
+							<p>- Cross-browser and adaptive layout</p>
+						</div>
+					</div>
+
 				</div>
 				<div className="resumeBtn">
 					<a href={resume} download>
@@ -61,6 +77,7 @@ const Resume = () => {
 						</p>
 					</a>
 				</div>
+
 			</section>
 		</>
 	)
