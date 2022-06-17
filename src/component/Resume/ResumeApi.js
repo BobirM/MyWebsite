@@ -4,7 +4,7 @@ const ResumeApi = [
     category: "education",
     year: "PDP IT Academy",
     title: "Frontend development",
-    desc: "Html, Css, Sass, Bootstrap, JavaScript, ReactJs, Redux, Redux-Toolkit, Git, Figma, Styled-components,Tailwind CSS, JQuery",
+    desc: "Html, Css, Sass, Bootstrap, JavaScript, ReactJs, Redux, Redux-Toolkit, Git, API, Figma, Styled-components,Tailwind CSS, JQuery , TypeScript",
     rate: "4.30/5",
   },
   {
@@ -20,7 +20,7 @@ const ResumeApi = [
     category: "education",
     year: " ",
     title: "Skills",
-    desc: "Html, Css, Sass, Bootstrap, JavaScript, ReactJs,Redux-Toolkit, Redux, Git, Figma, Styled-components, Tailwind CSS, JQuery",
+    desc: "Html, Css, Sass, Bootstrap, JavaScript, ReactJs,Redux-Toolkit, Redux, Git, API,  Figma, Styled-components, Tailwind CSS, JQuery, TypeScript",
     rate: "4.80/5 ",
   },
   {
